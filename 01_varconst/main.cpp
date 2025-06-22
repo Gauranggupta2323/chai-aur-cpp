@@ -1,6 +1,12 @@
 #include <iostream>
 
-using namespace std;  // hello
+using namespace std;      //    khud ka namespace banane ka method
+                          //   namespace myChai {  
+                          //   void display(){ kuch bhi }
+                          //        }
+
+                          //     int main(){
+                                  myChai :: display();
 
 int main(){
     
@@ -19,5 +25,7 @@ int main(){
     cout << "Welcome to chai with cpp 2" << endl ;
     cout << "Welcome to chai with cpp 3" << endl ;
 
-    return 0;
+    return 0;          // iski jagah agar return 5 likhenge toh kuch farak nhi padega 
+                      //  bas likha hua aaega end mai ki     exited with code=5 in 0.023 seconds 
+                      // aur kuch nhi                         
 }
